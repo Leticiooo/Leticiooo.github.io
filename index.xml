@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Leticiooo</title>
+    <title>Silly Thing</title>
     <link>https://Leticiooo.github.io/</link>
-    <description>Recent content on Leticiooo</description>
+    <description>Recent content on Silly Thing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 02 Jan 2023 21:54:50 +0800</lastBuildDate><atom:link href="https://Leticiooo.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Myfirst</title>
-      <link>https://Leticiooo.github.io/post/myfirst/</link>
-      <pubDate>Mon, 02 Jan 2023 21:54:50 +0800</pubDate>
-      
-      <guid>https://Leticiooo.github.io/post/myfirst/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 01 Jan 2023 14:18:05 +0800</lastBuildDate><atom:link href="https://Leticiooo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>装修日记</title>
       <link>https://Leticiooo.github.io/post/%E8%A3%85%E4%BF%AE%E6%97%A5%E8%AE%B0/</link>
       <pubDate>Sun, 01 Jan 2023 14:18:05 +0800</pubDate>
       
       <guid>https://Leticiooo.github.io/post/%E8%A3%85%E4%BF%AE%E6%97%A5%E8%AE%B0/</guid>
-      <description>&lt;p&gt;坎坷艰辛的搭建旅程&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;坎坷艰辛的搭建旅程&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
+    
+    <item>
+      <title>难产的2022年终总结</title>
+      <link>https://Leticiooo.github.io/post/%E9%9A%BE%E4%BA%A7%E7%9A%842022%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sat, 31 Dec 2022 10:54:50 +0800</pubDate>
+      
+      <guid>https://Leticiooo.github.io/post/%E9%9A%BE%E4%BA%A7%E7%9A%842022%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;—— 不会比这一年更差了，对吧？&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://Leticiooo.github.io/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Leticiooo.github.io/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://Leticiooo.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Leticiooo.github.io/about/</guid>
+      <description>about</description>
+    </item>
+    
+    
     
   </channel>
 </rss>
