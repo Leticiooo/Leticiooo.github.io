@@ -104,8 +104,8 @@
   "keywords": [
     "Tech"
   ],
-  "articleBody": " 坎坷艰辛的搭建旅程\n写在前面： 每次看到别人有自己的漂亮博客就好羡慕好羡慕，但秉持着“只要手头上还有比这更容易做的事就不轻易动手”的原则，一直拖拖拖拖了一整个2022……于是在2023年1月1号这一天，博主抛下了难产的年终总结以及难产的毕设中期报告，撸起袖子开始捣鼓了！\nToDo List 前置准备 安装Git 安装Hugo 配置SSH 验证SSH连接是否成功，继续在终端内输入 ssh -T git@github.com 如果返回 Hi Username! You've successfully authenticated, but GitHub does not provide shell access. 则为连接成功。 如果出现Are you sure you want to continue connecting (yes/no/[fingerprint])? ，则输入yes后回车。 很不幸，博主返回的是git@github.com: Permission denied (publickey).，搜索后发现应该是ssh密钥出了问题，于是返回重新生成.pub文件，不知道为什么反复重试了好几次之后突然成功了（可能靠一些执着）。\n部署页面 部署在GitHub Page上 部署在Vercel上 这一步出了点问题，不知道为什么最后生成的网页界面是正确的，但是文章内容一个都点不开……遂决定推倒重来\n更新博客 调整主题样式 官方文档\n其他有用的 记在这里以备不时之需。\n文章头部配置信息 title: \"\" #标题 date: #创建时间 description: \"\" #描述（会显示在大标题下，不会显示在预览里） tags: - 标签1 - 标签2 draft: false # 是否为草稿 showToc: true # 显示目录 TocOpen: true # 自动展开目录 文章封面图 cover: image: \"\" # can also paste direct link from external site # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png alt: \"\" caption: \"\" relative: false # To use relative path for cover image, used in hugo Page-bundles ",
-  "wordCount" : "555",
+  "articleBody": " 坎坷艰辛的搭建旅程\n写在前面： 每次看到别人有自己的漂亮博客就好羡慕好羡慕，但秉持着“只要手头上还有比这更容易做的事就不轻易动手”的原则，一直拖拖拖拖了一整个2022……于是在2023年1月1号这一天，博主抛下了难产的年终总结以及难产的毕设中期报告，撸起袖子开始捣鼓了！\nToDo List 前置准备 安装Git 安装Hugo 配置SSH 其实博主本人并不明确地知道这个步骤是否有用，因为在搭建过程中出了太多奇怪的问题，推倒重建过两次，但这一步并没有重建。 验证SSH连接是否成功，继续在终端内输入 ssh -T git@github.com 如果返回 Hi Username! You've successfully authenticated, but GitHub does not provide shell access. 则为连接成功。 如果出现Are you sure you want to continue connecting (yes/no/[fingerprint])? ，则输入yes后回车。 很不幸，博主返回的是git@github.com: Permission denied (publickey).，搜索后发现应该是ssh密钥出了问题，于是返回重新生成.pub文件，不知道为什么反复重试了好几次之后突然成功了（可能靠一些执着）。\n部署页面 部署在GitHub Page上 部署在Vercel上 这一步出了点问题，不知道为什么最后生成的网页界面是正确的，但是文章内容一个都点不开……遂决定推倒重来\n更新博客 调整主题样式 官方文档\n其他有用的 记在这里以备不时之需。\n文章头部配置信息 title: \"\" #标题 date: #创建时间 description: \"\" #描述（会显示在大标题下，不会显示在预览里） tags: - 标签1 - 标签2 draft: false # 是否为草稿 showToc: true # 显示目录 TocOpen: true # 自动展开目录 文章封面图 cover: image: \"\" # can also paste direct link from external site # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png alt: \"\" caption: \"\" relative: false # To use relative path for cover image, used in hugo Page-bundles ",
+  "wordCount" : "613",
   "inLanguage": "en",
   "datePublished": "2023-01-01T14:18:05+08:00",
   "dateModified": "2023-01-01T14:18:05+08:00",
@@ -216,7 +216,7 @@
 
 
 
-Created on:&nbsp;<span title='2023-01-01 14:18:05 +0800 CST'>January 1, 2023</span>&nbsp; | &nbsp;✍︎: 555字&nbsp; | &nbsp;⏲: 2min
+Created on:&nbsp;<span title='2023-01-01 14:18:05 +0800 CST'>January 1, 2023</span>&nbsp; | &nbsp;✍︎: 613字&nbsp; | &nbsp;⏲: 2min
       &nbsp;|&nbsp;Tag: &nbsp;
       <ul class="post-tags-meta">
           <a href="https://Leticiooo.github.io/tags/tech/">Tech</a>
@@ -341,13 +341,16 @@ Created on:&nbsp;<span title='2023-01-01 14:18:05 +0800 CST'>January 1, 2023</sp
 <h3 id="安装git">安装Git<a hidden class="anchor" aria-hidden="true" href="#安装git">#</a></h3>
 <h3 id="安装hugo">安装Hugo<a hidden class="anchor" aria-hidden="true" href="#安装hugo">#</a></h3>
 <h3 id="配置ssh">配置SSH<a hidden class="anchor" aria-hidden="true" href="#配置ssh">#</a></h3>
-<p>验证SSH连接是否成功，继续在终端内输入
+<blockquote>
+<p>其实博主本人并不明确地知道这个步骤是否有用，因为在搭建过程中出了太多奇怪的问题，推倒重建过两次，但这一步并没有重建。
+验证SSH连接是否成功，继续在终端内输入
 <code>ssh -T git@github.com</code>
 如果返回
 <code>Hi Username! You've successfully authenticated, but GitHub does not provide shell access.</code>
 则为连接成功。
 如果出现<code>Are you sure you want to continue connecting (yes/no/[fingerprint])?</code> ，则输入<code>yes</code>后回车。
 很不幸，博主返回的是<code>git@github.com: Permission denied (publickey).</code>，搜索后发现应该是ssh密钥出了问题，于是返回重新生成.pub文件，不知道为什么反复重试了好几次之后突然成功了（可能靠一些执着）。</p>
+</blockquote>
 <h2 id="部署页面">部署页面<a hidden class="anchor" aria-hidden="true" href="#部署页面">#</a></h2>
 <h3 id="部署在github-page上">部署在GitHub Page上<a hidden class="anchor" aria-hidden="true" href="#部署在github-page上">#</a></h3>
 <h3 id="部署在vercel上">部署在Vercel上<a hidden class="anchor" aria-hidden="true" href="#部署在vercel上">#</a></h3>
